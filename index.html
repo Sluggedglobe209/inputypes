@@ -12,7 +12,7 @@
         <form>
             <div class="row">
                 <div>
-                    <label for="firstname">First</input>
+                    <label for="firstname">First</label>
                     <input id="firstname" name="first_name" type="text">
                 </div>
                 <div>
@@ -23,27 +23,52 @@
         </form>
     </div>
 </div>
-
+<div class="row">
+    <fieldset>
+        <legend>Flavor:</legend>
     <div>
         <div>
-            <input
-                <label 21321 213
+            <input type="radio" id="vanilla" name="icecream">
+            <label for="vanilla">Vanilla</label>
         </div>
     </div>
 
     <div>
         <div>
-            <input 123 21321
-            <label12 321 321
+            <input type="radio" id="strawberry" name="icecream">
+            <label for="strawberry">Strawberry</label>
         </div>
     </div>
-
+    </fieldset>
+</div>
     <div>
         <div>
-            <input 12312 321
-            <label 12321 21
+            <input type="radio" id="chocolate" name="icecream">
+            <label for="chocolate">Chocolate</label>
         </div>
     </div>
+<div>
+    <div>
+        <div>
+            <label for="container">Please choose one</label>
+            <select name="container" id="container">
+                <option value="cup">Plastic Cup</option>
+                <option value="suger">Suger Cone</option>
+                <option value="Waffle">Waffle Cone</option>
+                <option value="dippedWaffle">Chocolate Dipped Waffle Cone</option>
+            </select>
+
+        </div>
+    </div>
+</div>
+<div>
+    <form>
+        <div>
+            <label for="SpecialRequest">Special Request:</label>
+            <textarea id="SpecialRequest" name="SpecialRequests" rows="4" cols="10" placeholder="Allergic to peanuts, substitution, etc."></textarea>
+        </div>
+    </form>
+</div>
 
 </body>
 </html>
